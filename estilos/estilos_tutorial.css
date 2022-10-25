@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/*Tutorial parece un print de ppt*/
+
 #tutorial{
     background-image: url(../imagenes/tutorial.jpg);
     width: 100vw;
