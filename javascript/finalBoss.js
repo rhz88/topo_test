@@ -246,7 +246,7 @@ function boss(){
         fx1() ;
         document.getElementById("boss").style.display = "none";
         setTimeout(aparecerBoss,Math.round(Math.random()* 1000));
-        vidaBoss-= 10; //daño que se le hace al boss
+        vidaBoss-= 10; //daño que se le hace al boss - Diego
         score += 1;
         hpBoss = vidaBoss - dañoXgolpe;
         document.getElementById("hp").textContent = hpBoss + " " + "/";
